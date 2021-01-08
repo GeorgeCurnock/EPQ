@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../StyleRevision.css">
+        <meta charset="UTF-8">
+        <title>
+            George's Website
+        </title>
+    </head>
+    <body>
+        <div id="wrapper">
+            
+            <?php include"../Pages/Header.php"?>
+            
+            <div id="ContentArea">
+                <div id='RevisionNotes'>
+                <h1>Core 3</h1>
+                <p>Equations you are given:</p>
+                <img src="../Images/c3revision/c3formulaep1.PNG"  width="400" height="575">
+                <img src="../Images/c3revision/c3formulaep2.PNG"  width="350" height="350">
+                
+                <p>Equations you are not given:</p>
+                <img src="../Images/c3revision/c3notknown.PNG" width="450" height="450">
+                <img src="../Images/c3revision/differentiationtrig.PNG" width="300" height="200">
+                
+                
+                <h2>C3 Websites</h2>
+                <div class="solutionbank">
+                <a href="http://www.physicsandmathstutor.com/a-level-maths-papers/c3-solutionbank/" >Solution Bank</a>
+                The Solution Bank for the Edexcel C3 Textbook
+                </div>
+                
+                <ul>
+                    <li><a href="http://www.bbc.co.uk/education/subjects/z6nygk7">BBC Bitesize</a></li>
+                    <li>BBC Bitesize doesn't have specific sections for each module but has useful sections on specific topics e.g. differentiation and integration</li>
+                    <li><a href="http://www.bbc.co.uk/education/subjects/z6nygk7"><img src="../Images/logos/BBCBitesize.PNG" alt="" height="125" width="500"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://www.examsolutions.net/a-level-maths/edexcel/c3-tutorials/">ExamSolutions</a></li>
+                    <li>ExamSolutions is a well respected source of information for almost all A level Maths topics. IT contains video tutorials on both the understanding requir
+                        ed to answer difficult questions as well as worked through examples of how to answer specific question types.</li>
+                    <li><a href="http://www.examsolutions.net/a-level-maths/edexcel/c3-tutorials/"><img src="../Images/logos/ExamSolutions.PNG" alt="" height="125" width="500"></a></li>
+                </ul>
+                <ul>    
+                    <li><a href="https://revisionmaths.com/advanced-level-maths-revision/advanced-level-pure-maths-section">RevisionMaths</a></li>
+                    <li>Revision Maths is a small website but still contains vital and conscise information for challenging topics such as trigonometry and calculus</li>
+                    <li><a href="https://revisionmaths.com/advanced-level-maths-revision/advanced-level-pure-maths-section"><img src="../Images/logos/RevisionMaths.PNG" alt="" height="125" width="500"></a></li>
+                </ul>
+                <ul>    
+                    <li><a href="http://mrbartonmaths.com/students/a-level/a-level-notes.html#core3">MrBartonMaths</a></li>
+                    <li>Mr Barton Maths contains everything you need to know to grasp the main concepts. Ranging from revision notes to question and answers to video tutorials. </li>
+                    <li><a href="http://mrbartonmaths.com/students/a-level/a-level-notes.html#core3"><img src="../Images/logos/MrBartonMathsLogo.PNG" alt="" height="125" width="500"></a></li>
+                </ul>
+                </div>
+            </div>
+            
+        </div>
+        <?php include "../Pages/Footer.php" ?>
+    </body>
+</html>
